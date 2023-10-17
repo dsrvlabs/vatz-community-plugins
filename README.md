@@ -8,19 +8,18 @@
 
 # How to register your own plugin
 
-1. Please, check your plugins are met for those two pre-requirements 
+1. Please, check your plugins meet the two pre-requirements
    - A plugin repository must be opened to public. 
    - A plugin must be registered to official pkg library (ex: https://pkg.go.dev/, https://www.npmjs.com/, etc).  
    
-2. Please, fill out all required information samples below.
-   > You can include special instruction in separate file at plugins folders 
+2. Please add your plugin to the 'Plugin List' section with all the required information below.
    - Name
    - Github Repository
    - Plugin Description
    - go Pkg address(if available)
    
-3. Raise a PR to register your plugins in README.md. 
-   > You can add another md file under [plugins directory](plugins/README.md) if you would like to include additional instructions or more details. 
+3. Raise a PR to register your plugins in README.md.<br> 
+   You can add another md file under [plugins directory](plugins/README.md) if you would like to include additional instructions or more details. 
 
 # Plugin list
 Number | Name | Github repository | Description | PKG address (if available) | Extra info  
