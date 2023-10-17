@@ -6,13 +6,13 @@
 - You can share your own plugins for everyone to public. 
 - Community plugins are not managed by DSRV labs. (`VATZ` official plugins are under DSRV's managements)
 
-# How to register your own plugin to `VATZ-Community-Plugins` repository. 
+# How to register your own plugin
 
 1. Please, check your plugins are met for those two pre-requirements 
    - A plugin repository must be opened to public. 
    - A plugin must be registered to official pkg library (ex: https://pkg.go.dev/, https://www.npmjs.com/, etc).  
    
-2. Please, fill out all required information all information as sample below
+2. Please, fill out all required information samples below.
    > You can include special instruction in separate file at plugins folders 
    - Name
    - Github Repository
