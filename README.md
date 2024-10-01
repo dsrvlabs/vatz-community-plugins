@@ -1,27 +1,37 @@
-# `VATZ-Community-Plugins`
+# VATZ Community Plugins
 
-`vatz-community-plugins` are unofficial plugins from people who wants to contribute a VATZ project with their own plugins.
+`vatz-community-plugins` is a collection of unofficial plugins contributed by members of the community who wish to extend the functionality of the VATZ project with their own plugins.
+- This repository hosts all unofficial plugins for any protocol.
+- You are welcome to share your own plugins with the broader community.
+- Please note that community plugins are not managed by DSRV Labs. (Only official VATZ plugins are managed by DSRV.)
 
-- This repository covers all unofficial plugins for any protocols.
-- You can share your own plugins for everyone to public. 
-- Community plugins are not managed by DSRV labs. (`VATZ` official plugins are under DSRV's managements)
+> For official VATZ plugins under DSRV's management, please refer to the following repositories:
+> - [vatz-plugin-sysutil](https://github.com/dsrvlabs/vatz-plugin-sysutil)
+> - [vatz-plugin-cosmoshub](https://github.com/dsrvlabs/vatz-plugin-cosmoshub)
 
-# How to register your own plugin
 
-1. Please, check your plugins meet the two pre-requirements
-   - A plugin repository must be opened to public. 
-   - A plugin must be registered to official pkg library (ex: https://pkg.go.dev/, https://www.npmjs.com/, etc).  
-   
-2. Please add your plugin to the 'Plugin List' section with all the required information below.
-   - Name
-   - Github Repository
-   - Plugin Description
-   - go Pkg address(if available)
-   
-3. Raise a PR to register your plugins in README.md.<br> 
-   You can add another md file under [plugins directory](plugins/README.md) if you would like to include additional instructions or more details. 
+# How to Register Your Plugin
 
-# Plugin list
-Number | Name | Github repository | Description | PKG address (if available) | Extra info  
-:--: | :--: | :-- | :-- | :-- | :--
-1 | vatz-plugin-sei | https://github.com/dsrvlabs/vatz-plugin-sei | Monitoring Sei-network node with provided metrics |  https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-sei | 
+To contribute your plugin to this repository, please follow these steps:
+
+1. Ensure that your plugin meets the following prerequisites:
+   - The plugin repository must be public.
+   - The plugin must be registered with an official package library (e.g., [pkg.go.dev](https://pkg.go.dev/), [npmjs.com](https://www.npmjs.com/), etc.).
+
+2. Add your plugin to the "Plugin List" section, including the following details:
+   - Plugin Name
+   - GitHub Repository URL
+   - Brief Plugin Description
+   - Package address (if applicable)
+
+3. Submit a Pull Request (PR) to register your plugin in `README.md`.<br>
+   If you wish to include additional instructions or more detailed documentation, you can add a separate `.md` file under the [plugins directory](plugins/README.md).
+
+# Plugin List
+| Number | Name               | GitHub Repository                              | Description                                                        | Package Address (if available)                                | Additional Info |
+|:------:|:-------------------|:-----------------------------------------------|:-------------------------------------------------------------------|:--------------------------------------------------------------|:----------------|
+| 1      | vatz-plugin-sei     | [vatz-plugin-sei](https://github.com/dsrvlabs/vatz-plugin-sei)     | Monitors Sei-network nodes with provided metrics                    | [pkg.go.dev](https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-sei)     |                 |
+| 2      | vatz-plugin-avail   | [vatz-plugin-avail](https://github.com/dsrvlabs/vatz-plugin-avail) | Monitors Avail-network nodes with provided metrics                  | [pkg.go.dev](https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-avail)   |                 |
+| 3      | vatz-plugin-near    | [vatz-plugin-near](https://github.com/dsrvlabs/vatz-plugin-near)   | Monitors NEAR-network nodes with provided metrics                   | [pkg.go.dev](https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-near)    |                 |
+| 4      | vatz-plugin-solana  | [vatz-plugin-solana](https://github.com/dsrvlabs/vatz-plugin-solana)| Monitors Solana-network nodes with provided metrics                 | [pkg.go.dev](https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-solana)  |                 |
+| 5      | vatz-plugin-watchers| [vatz-plugin-watchers](https://github.com/dsrvlabs/vatz-plugin-watchers) | Monitors the signing status of validators in Cosmos-based protocols | [pkg.go.dev](https://pkg.go.dev/github.com/dsrvlabs/vatz-plugin-watchers)|                 |
