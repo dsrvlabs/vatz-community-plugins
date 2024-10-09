@@ -1,9 +1,8 @@
 # VATZ Community Plugins
 
-`vatz-community-plugins` is a collection of unofficial plugins contributed by members of the community who wish to extend the functionality of the VATZ project with their own plugins.
-- This repository hosts all unofficial plugins for any protocol.
-- You are welcome to share your own plugins with the broader community.
-- Please note that community plugins are not managed by DSRV Labs. (Only official VATZ plugins are managed by DSRV.)
+`vatz-community-plugins` is a collection of unofficial plugins contributed by members of the community members who want to extend the functionality of the VATZ project with their own plugins.
+You are welcome to share your own plugins with the broader community.
+
 
 > For official VATZ plugins under DSRV's management, please refer to the following repositories:
 > - [vatz-plugin-sysutil](https://github.com/dsrvlabs/vatz-plugin-sysutil)
